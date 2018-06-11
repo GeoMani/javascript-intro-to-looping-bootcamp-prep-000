@@ -23,7 +23,10 @@ function whileLoop(number) {
 
 function  doWhileLoop(array) {
   do {
-    return Math.random() >= 0.5
+    array.pop();
+    function maybeTrue() {
+      return Math.random() >= 0.5
+    }
   }
-  while (array.length > 0 && doWhileLoop())
+  while (array.length > 0 && maybeTrue())
 }
