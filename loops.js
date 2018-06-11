@@ -28,6 +28,6 @@ function doWhileLoop(array) {
 
   do {
     array.pop();
-    doWhileLoop();
+    maybeTrue();
   } while (array.length > 0 && maybeTrue());
 }
