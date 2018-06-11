@@ -12,3 +12,10 @@ function forLoop(array) {
   }
 }
 
+function whileLoop(number) {
+  let countdown = number;
+  
+  while (countdown > 0) {
+    console.log(--countdown)
+  }
+}
