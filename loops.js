@@ -11,8 +11,9 @@ function makeArray() {
 
 
 function forLoop(array) {
-  for (let i = 1; i <= 25; i++) {
-    if (i === 1) {
+  array = 0;
+  for (let array = 1; array <= 25; array++) {
+    if (array === 1) {
       array = [...array, "I am " + i + " strange loop."];
    }
    else {
