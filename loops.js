@@ -22,5 +22,8 @@ function whileLoop(number) {
 }
 
 function  doWhileLoop(array) {
-  return Math.random() >= 0.5
+  do {
+    
+  }
+  return array.length >= 0.5
 }
