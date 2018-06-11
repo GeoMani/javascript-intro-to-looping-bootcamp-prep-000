@@ -12,6 +12,9 @@ function forLoop(array) {
   return array;
 }
 
+
+
+
 function whileLoop(number) {
   let countdown = number;
   
@@ -20,6 +23,9 @@ function whileLoop(number) {
   }
   return 'done'
 }
+
+
+
 
 function maybeTrue() {
   return Math.random() >= 0.5
