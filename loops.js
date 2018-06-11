@@ -12,3 +12,4 @@ function forLoop(array) {
   }
 }
 
+while ()
