@@ -31,9 +31,9 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
-function doWhileLoop(array) {
+function doWhileLoop(arrayTwo) {
   do {
-    array.pop();
-    return array;
-  } while (array.length > 0 );
+    arrayTwo.pop();
+    return arrayTwo;
+  } while (arrayTwo.length > 0 );
 }
